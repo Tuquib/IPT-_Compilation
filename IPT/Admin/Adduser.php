@@ -4,10 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Add User</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" />
 </head>
 
 <body>
@@ -21,37 +22,53 @@
         <div class="row">
             <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-light sidebar">
                 <ul class="nav flex-column" style="margin-top: 20px;">
-                    <li class="nav-item">
-                        <a class="nav-link-active" href="index.php">
-                            <button class="btn btn-block text-left" style="font-family: Poppins, sans-serif;">
-                                Dashboard
-                            </button>
+                    <li class="nav-item1 py-2 py-sm-0">
+                        <a href="index.php" class="nav-link text-dark" aria-current="page">
+                            <i class="fa fa-gauge"></i>
+                            <span class="fs-5 ms-3 d-none d-sm-inline">Dashboard</span>
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link-active" href="profile.php">
-                            <button class="btn btn-block text-left" style="font-family: Poppins, sans-serif;">
-                                Profile
-                            </button>
+
+                    <li class="nav-item1 py-2 py-sm-0">
+                        <a href="profile.php" class="nav-link text-dark" aria-current="page">
+                            <i class="fa-solid fa-user"></i>
+                            <span class="fs-5 ms-3 d-none d-sm-inline">Profile</span>
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link-active" href="table.php">
-                            <button class="btn btn-block text-left" style="font-family: Poppins, sans-serif;">
-                                Tables with Java
-                            </button>
+                    <li class="nav-item1 py-2 py-sm-0">
+                        <a href="table.php" class="nav-link text-dark" aria-current="page">
+                            <i class="fa-solid fa-table"></i>
+                            <span class="fs-5 ms-3 d-none d-sm-inline">Table</span>
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link-active" href="adduser.php">
-                            <button class="btn btn-block text-left" style="font-family: Poppins, sans-serif;">
-                                Add User
-                            </button>
+                    <li class="nav-item1 py-2 py-sm-0">
+                        <a href="javascript.php" class="nav-link text-dark" aria-current="page">
+                            <i class="fa-brands fa-js"></i>
+                            <span class="fs-5 ms-3 d-none d-sm-inline">JavaScript</span>
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link-active" href="../login.php">
-                            <button class="btn btn-block text-left">Logout</button>
+                    <li class="nav-item1 py-2 py-sm-0">
+                        <a href="calculator.php" class="nav-link text-dark" aria-current="page">
+                            <i class="fa-solid fa-calculator"></i>
+                            <span class="fs-5 ms-3 d-none d-sm-inline">Calculator</span>
+                        </a>
+                    </li>
+                    <li class="nav-item1 py-2 py-sm-0">
+                        <a href="Adduser.php" class="nav-link text-dark" aria-current="page">
+                            <i class="fa-solid fa-plus"></i>
+                            <span class="fs-5 ms-3 d-none d-sm-inline">Add Users</span>
+                        </a>
+                    </li>
+                    <li class="nav-item1 py-2 py-sm-0">
+                        <a href="add.php" class="nav-link text-dark" aria-current="page">
+                            <i class="fa-solid fa-plus"></i>
+                            <span class="fs-5 ms-3 d-none d-sm-inline">Add Users PHP</span>
+                        </a>
+                    </li>
+                    <li class="nav-item1 py-2 py-sm-0">
+                        <a class="nav-link text-dark" href="../login.php" aria-current="page">
+                            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                            <span class="fs-5 ms-3 d-none d-sm-inline">Logout</span>
                         </a>
                     </li>
                 </ul>

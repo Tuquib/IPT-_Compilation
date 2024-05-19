@@ -126,7 +126,7 @@
                                         <td class="ta">4</td>
                                         <td class="te">4</td>
                                         <td class="tt">0</td>
-                                        <td class="ta">8</td>
+                                        <td id="total" class="ta"></td>
                                     </tr>
 
                                     <tr>
@@ -136,7 +136,7 @@
                                         <td class="tb">2</td>
                                         <td class="ts">6</td>
                                         <td class="tt">0</td>
-                                        <td class="ts">8</td>
+                                        <td id="totals" class="ts"></td>
                                     </tr>
 
                                     <tr>
@@ -146,7 +146,7 @@
                                         <td class="ts">4</td>
                                         <td class="te">0</td>
                                         <td class="ts">8</td>
-                                        <td id="totalss" class="ta">12</td>
+                                        <td id="totalss" class="ta"></td>
                                     </tr>
                                     <tr>
                                         <td></td>
@@ -155,7 +155,7 @@
                                         <td></td>
                                         <td></td>
                                         <td class="tb">Total</td>
-                                        <td class="units">28</td>
+                                        <td id="totalsss" class="units"></td>
 
                                     </tr>
                                 </tbody>
@@ -164,9 +164,25 @@
                     </div>
                 </div>
             </main>
-        </div>
-    </div>
 
+            <script>
+                function myFunction() {
+                    document.getElementById("demo1").innerHTML = "Paragraph changed";
+                }
+            </script>
+
+            <script>
+                window.onload = function() {
+                    calculateTotal();
+                }
+
+                function calculateTotal() {
+                    document.getElementById("total").innerHTML = 4 + 4;
+                    document.getElementById("totals").innerHTML = 2 + 6;
+                    document.getElementById("totalss").innerHTML = 4 + 0 + 8;
+                    document.getElementById("totalsss").innerHTML = 8 + 8 + 12;
+                }
+            </script>
 </body>
 
 </html>
